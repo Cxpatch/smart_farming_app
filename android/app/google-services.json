@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "481586799931",
+    "project_id": "smart-farming-app-kenya-2026",
+    "storage_bucket": "smart-farming-app-kenya-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481586799931:android:3a227b82b80c72e740831e",
+        "android_client_info": {
+          "package_name": "com.example.smart_farming_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTKhJTmDOblYcVZ8BIBlZ7_f4mcX_kZhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
