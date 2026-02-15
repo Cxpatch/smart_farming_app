@@ -63,6 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '481586799931',
     projectId: 'smart-farming-app-kenya-2026',
     storageBucket: 'smart-farming-app-kenya-2026.firebasestorage.app',
+    iosClientId: '481586799931-rpeedtpfcu0ok7ul2rvf0cao2b9r8v4c.apps.googleusercontent.com',
     iosBundleId: 'com.example.smartFarmingApp',
   );
 
@@ -72,6 +73,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '481586799931',
     projectId: 'smart-farming-app-kenya-2026',
     storageBucket: 'smart-farming-app-kenya-2026.firebasestorage.app',
+    iosClientId: '481586799931-rpeedtpfcu0ok7ul2rvf0cao2b9r8v4c.apps.googleusercontent.com',
     iosBundleId: 'com.example.smartFarmingApp',
   );
 

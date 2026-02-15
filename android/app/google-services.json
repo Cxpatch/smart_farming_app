@@ -12,7 +12,12 @@
           "package_name": "com.example.smart_farming_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "481586799931-58l1l5akrsv3u6g5820sevhapfcnb19r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCTKhJTmDOblYcVZ8BIBlZ7_f4mcX_kZhw"
@@ -20,7 +25,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481586799931-58l1l5akrsv3u6g5820sevhapfcnb19r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "481586799931-rpeedtpfcu0ok7ul2rvf0cao2b9r8v4c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smartFarmingApp"
+              }
+            }
+          ]
         }
       }
     }

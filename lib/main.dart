@@ -6,9 +6,13 @@ import 'screens/login_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+    print("Firebase not supported on this platform.");
+  }
 
   runApp(const SmartFarmingApp());
 }
@@ -20,7 +24,6 @@ class SmartFarmingApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Smart Farming App',
       home: LoginScreen(),
     );
   }
